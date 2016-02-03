@@ -1,0 +1,115 @@
+body {
+font-family: 'Amatic SC', cursive;
+/*font-family: 'Poiret One', cursive;*/
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 125px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0;
+  padding-top: 15px;
+}
+h2 {
+  font-size: 34px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+i {
+  padding: 10px;
+}
+i:hover{
+  color:#E1DFDF;
+}
+.wrapper i {
+  font-size: 69px;
+  color: #F6F6F6;
+  padding-top: 13px;
+}
+.wrapper i:hover {
+  color:#E1DFDF;
+}
+img{
+  max-width: 620px;
+  margin: 10px 0px 5px 0px;
+  box-shadow: 1px 1px 2px white;
+  border-radius: 3px;
+}
+.banner-back {
+  background-image:url(images/fantastic.png);
+  display: cover;
+  height: 100vh;
+}
+img:hover{
+  background-color: black;
+  opacity: 0.8;
+}
+a:hover{
+  color:#E1DFDF;
+  text-decoration: none;
+}
+a{
+  color: #F6F6F6;
+}
+a:focus{
+  color: #F6F6F6;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+a div:hover{
+  cursor: pointer;
+}
+.contact-box{
+  padding: 100px;
+  background-color: #F7F7F7;
+}
+.contact-box a {
+  font-size: 30px;
+  color:#446CB3;
+}
+.contact-box h3 {
+  font-size: 42px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #6C7A89;
+}
+.close {
+  float: right;
+  margin-right: 14px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: #67676C;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
+}
+.contact-box p {
+  font-family: 'Roboto', sans-serif;
+  color: #9BA6B2;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 30px 0px;
+}
+.contact-box i {
+  color: #9BA6B2;
+  font-size: 18px;
+  color: #446CB3;
+  font-size: 84px;
+}
+#newsletter .form-control {
+  font-family: 'Roboto', sans-serif;
+  margin: 40px 0px 10px;
+  padding: 27px 12px;
+}
+.contact-box .btn {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+#mc_embed_signup{background:#F7F7F7; clear:left; font-size: 1.75em; }
